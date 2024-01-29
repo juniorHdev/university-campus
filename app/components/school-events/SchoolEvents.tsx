@@ -31,29 +31,29 @@ const SchoolEvents = () => {
         <div >
           <article className="w-full min-h-[50px] flex items-center  gap-2 p-2 rounded-lg">
             <span className="min-w-10 min-h-10 bg-orange-400 p-1 rounded-md"></span>
-            <p className="text-xs flex flex-col ">
+            <div className="text-xs flex flex-col ">
               <h3 className="text-lg">titulo</h3>
               <span className="text-[12px] text-gray-700/70">
                 aula | hora: 00:00 - 00:00 | profesor
               </span>
-            </p>
+            </div>
           </article>
           <article className="w-full min-h-[50px] flex items-center  gap-2 p-2 rounded-lg">
             <span className="min-w-10 min-h-10 bg-orange-400 p-1 rounded-md"></span>
-            <p className="text-xs flex flex-col ">
+            <div className="text-xs flex flex-col ">
               <h3 className="text-lg">titulo</h3>
               <span className="text-[12px] text-gray-700/70">
                 aula | hora: 00:00 - 00:00 | profesor
               </span>
-            </p>
+            </div>
           </article> <article className="w-full min-h-[50px] flex items-center  gap-2 p-2 rounded-lg">
             <span className="min-w-10 min-h-10 bg-orange-400 p-1 rounded-md"></span>
-            <p className="text-xs flex flex-col ">
+            <div className="text-xs flex flex-col ">
               <h3 className="text-lg">titulo</h3>
               <span className="text-[12px] text-gray-700/70">
                 aula | hora: 00:00 - 00:00 | profesor
               </span>
-            </p>
+            </div>
           </article>
           
         </div>
