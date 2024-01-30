@@ -17,7 +17,7 @@ const links: NavLink[] = [
   },
   {
     name: "mi matricula",
-    href: "/about",
+    href: PrivateRoutes.enrollment,
     icon: <GraduationCapIcon />,
   },
   {
@@ -57,3 +57,4 @@ const Navbar = () => {
   );
 };
 export default Navbar;
+

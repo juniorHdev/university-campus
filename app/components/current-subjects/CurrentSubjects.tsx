@@ -11,14 +11,12 @@ const CurrentSubjects = () => {
         <h1 className="font-bold text-2xl">Materias en curso</h1>
       </div>
       <div
-        className="w-full flex  gap-4 overflow-x-hidden relative"
-        data-carousel="static"
-        id="default-carousel"
+        className="w-full flex gap-4 overflow-x-hidden"
       >
         {Array(8)
           .fill(0)
           .map((_, i) => (
-            <ClassInfoCard key={i} />
+            <ClassInfoCard key={i}  />
           ))}
       </div>
     </div>
