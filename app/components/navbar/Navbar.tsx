@@ -27,7 +27,7 @@ const links: NavLink[] = [
   },
   {
     name: "tramites",
-    href: "/contact",
+    href: PrivateRoutes.procedures,
     icon: <HomeIcon />,
   },
   {

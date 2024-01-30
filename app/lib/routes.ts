@@ -1,4 +1,5 @@
 export const PrivateRoutes = {
     home: '/dashboard',
-    perfil: '/perfil',
+    perfil: '/profile',
+    procedures: '/procedures',
 }
