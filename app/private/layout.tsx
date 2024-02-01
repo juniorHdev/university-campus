@@ -18,9 +18,11 @@ const layout = ({ children }: { children: ReactNode }) => {
           cerrar sesion
         </span>
       </aside>
-      <main className="w-[85%]  flex flex-col px-2 gap-2">
+      <main className="w-[85%] h-full flex flex-col px-2 gap-2">
         <Header />
+        <section className="h-[90%]">
         {children}
+        </section>
       </main>
     </div>
   );

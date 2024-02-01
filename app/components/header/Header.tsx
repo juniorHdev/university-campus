@@ -5,7 +5,7 @@ import BellIcon from "@/public/icons/Bell-Icon";
 
 const Header = () => {
   return (
-    <header className="w-full h-[5rem] bg-white text-black flex items-center gap-6  rounded-lg shadow-sm">
+    <header className="w-full h-[10%] max-h-[70px] bg-white text-black flex items-center gap-6  rounded-lg shadow-sm">
       <span className="flex items-center gap-2 p-2">
         <Avatar />
         Junior hernandez

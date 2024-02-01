@@ -41,6 +41,12 @@ const Subjects =[
         code: "MAT-123",
         grade: "A+"
     },
+    {
+      Subjectname: "Matematica",
+      code: "MAT-123",
+      grade: "A+"
+  },
+
  
 ]
 
@@ -48,8 +54,8 @@ const Subjects =[
 
 const RegisteredSubjects = () => {
   return (
-    <table className="w-full bg-white " >
-        <caption className="text-start font-bold text-xl px-2">Materias actuales </caption>
+    <table className="w-full bg-white table-auto " >
+        <caption className="text-start font-bold text-xl px-2">Mis calificaciones</caption>
       <thead className="flex flex-col p-2">
         <tr className="flex justify-start py-2 text-sm font-semibold text-gray-400">
           {Tabletitles.map(({ name, width }) => (
@@ -59,7 +65,7 @@ const RegisteredSubjects = () => {
           ))}
         </tr>
       </thead>
-      <tbody className="text-sm">
+      <tbody className="text-sm ">
         {Subjects
           .map(({Subjectname, code, grade}) => (
             <SubjectDetail key={code} Subjectname={Subjectname} code={code} grade={grade} />
